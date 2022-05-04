@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Heat map of stores</title>
+        <link rel="stylesheet" href="heatmap.css">
+    </head>
+    <body>
+        <div id="demobox">
+            <div id="heatmap"></div>
+        </div>
+
+        <!-- 
+            D3.js é uma biblioteca JavaScript para produzir visualizações de 
+            dados dinâmicas e interativas em navegadores da web. Ele usa os 
+            padrões de Scalable Vector Graphics, HTML5 e Cascading Style Sheets. 
+            É o sucessor do framework Protovis anterior.
+        -->
+        <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="//d3js.org/d3-queue.v3.min.js"></script>
+        <script src="//d3js.org/topojson.v1.min.js"></script>
+
+        <!-- Import de JS -->
+        <script src="heatmap.js"></script>
+    </body>
+</html>
